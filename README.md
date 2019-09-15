@@ -1,4 +1,4 @@
-## Project from previous repository with installed DevTools.
+## Project from previous repository with installed DevTools. <br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

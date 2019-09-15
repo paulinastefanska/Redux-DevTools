@@ -1,0 +1,55 @@
+.Comment {
+	width: 400px;
+	margin: 8px;
+	padding: 10px;
+	background-color: #dfe4ea80;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.Votes {
+	margin-top: 10px;
+}
+.Votes, .Buttons {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 5px;
+}
+.Buttons button{
+	border-radius: 6px;
+	width: 28px;
+	height: 28px;
+	padding: 2px 4px;
+	margin: 2px;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: inherit;
+	transition: .2s ease;
+}
+.Buttons button:first-child {
+	color: #2ecc71;
+	border: solid 2px #2ecc71;
+}
+.Buttons button:first-child:hover {
+	background-color: #2ecc71;
+	color: #ffff;
+}
+.Buttons button:nth-child(2) {
+	color: #e74c3c;
+	border: solid 2px #e74c3c;
+}
+.Buttons button:nth-child(2):hover {
+	background-color: #e74c3c;
+	color: #ffff;
+}
+.Buttons button:last-child {
+	color: #7f8c8d;
+	border: solid 2px #7f8c8d;
+}
+.Buttons button:last-child:hover {
+	background-color: #7f8c8d;
+	color: #ffff;
+}
